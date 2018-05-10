@@ -1,0 +1,2 @@
+# kakrc
+kakoune configuration file
