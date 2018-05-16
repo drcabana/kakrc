@@ -16,3 +16,5 @@ hook global InsertChar j %{ try %{
 hook global NormalKey y|d|c %{ nop %sh{
   printf %s "$kak_reg_dquote" | pbcopy
   }}
+map global user p '<a-!>pbpaste --output --clipboard<ret>' -docstring 'paste from clipboard'
+
